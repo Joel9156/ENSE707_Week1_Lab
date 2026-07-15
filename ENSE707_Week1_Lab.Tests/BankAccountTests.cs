@@ -37,6 +37,7 @@ public class BankAccountTests
         Assert.IsFalse(result);
         Assert.AreEqual(100, account.Balance);
     }
+    // Activity 8: added tests for validation and fee calculation.
     [TestMethod]
     public void Constructor_NegativeOpeningBalance_ThrowsException()
     {
